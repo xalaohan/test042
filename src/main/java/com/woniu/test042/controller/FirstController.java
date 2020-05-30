@@ -9,6 +9,7 @@ public class FirstController {
     public String say(){
         System.out.println(1);
         System.out.println("this is dev");
+        System.out.println("this is 1");
         return "hello";
     }
 }
