@@ -8,6 +8,7 @@ public class FirstController {
     @GetMapping("say")
     public String say(){
         System.out.println(1);
+        System.out.println("this is dev");
         return "hello";
     }
 }
